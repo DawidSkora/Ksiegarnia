@@ -97,7 +97,7 @@ namespace Tests
           
 
 
-            Assert.AreNotEqual(przed, po); // czy licznik sie zmieni≥
+            Assert.AreNotEqual(przed, po); // czy licznik sie zmieni≈Ç
             Assert.ReferenceEquals(pierwszy, BazaDanych.BazaUzytkownikow[po]); // czy poprawnie dodano do tablicy
         }
 
@@ -122,8 +122,6 @@ namespace Tests
 
 
     }
-
-
 
 
 
