@@ -1,0 +1,10 @@
+F:\KsiegarniaPROJEKT\Ksiegarnia\bin\Debug\Ksiegarnia.exe.config
+F:\KsiegarniaPROJEKT\Ksiegarnia\bin\Debug\Ksiegarnia.exe
+F:\KsiegarniaPROJEKT\Ksiegarnia\bin\Debug\Ksiegarnia.pdb
+F:\KsiegarniaPROJEKT\Ksiegarnia\obj\Debug\Ksiegarnia.csprojAssemblyReference.cache
+F:\KsiegarniaPROJEKT\Ksiegarnia\obj\Debug\Ksiegarnia.Properties.Resources.resources
+F:\KsiegarniaPROJEKT\Ksiegarnia\obj\Debug\Ksiegarnia.csproj.GenerateResource.cache
+F:\KsiegarniaPROJEKT\Ksiegarnia\obj\Debug\Ksiegarnia.csproj.CoreCompileInputs.cache
+F:\KsiegarniaPROJEKT\Ksiegarnia\obj\Debug\Ksiegarnia.exe
+F:\KsiegarniaPROJEKT\Ksiegarnia\obj\Debug\Ksiegarnia.pdb
+F:\KsiegarniaPROJEKT\Ksiegarnia\obj\Debug\Ksiegarnia.formStronaGlowna.resources
