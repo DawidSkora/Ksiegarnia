@@ -42,6 +42,7 @@ namespace Ksiegarnia
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.labelZalogujSie = new System.Windows.Forms.Label();
             this.menuStronaGlowna.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -158,12 +159,24 @@ namespace Ksiegarnia
             this.label4.TabIndex = 4;
             this.label4.Text = "Dawid Skora";
             // 
+            // labelZalogujSie
+            // 
+            this.labelZalogujSie.AutoSize = true;
+            this.labelZalogujSie.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelZalogujSie.Location = new System.Drawing.Point(761, 629);
+            this.labelZalogujSie.Name = "labelZalogujSie";
+            this.labelZalogujSie.Size = new System.Drawing.Size(108, 24);
+            this.labelZalogujSie.TabIndex = 5;
+            this.labelZalogujSie.Text = "Zaloguj sie!";
+            this.labelZalogujSie.Click += new System.EventHandler(this.labelZalogujSie_Click);
+            // 
             // formStronaGlowna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(923, 693);
+            this.Controls.Add(this.labelZalogujSie);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -197,6 +210,7 @@ namespace Ksiegarnia
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelZalogujSie;
     }
 }
 

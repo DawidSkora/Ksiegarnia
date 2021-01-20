@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="formLogowanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogowanie.Designer.cs">
+      <DependentUpon>formLogowanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPrzegladanieOferty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPrzegladanieOferty.Designer.cs">
+      <DependentUpon>formPrzegladanieOferty.cs</DependentUpon>
+    </Compile>
     <Compile Include="formStronaGlowna.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +67,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formLogowanie.resx">
+      <DependentUpon>formLogowanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPrzegladanieOferty.resx">
+      <DependentUpon>formPrzegladanieOferty.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formStronaGlowna.resx">
       <DependentUpon>formStronaGlowna.cs</DependentUpon>
     </EmbeddedResource>
