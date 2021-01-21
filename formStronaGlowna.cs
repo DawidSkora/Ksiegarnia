@@ -145,6 +145,8 @@ namespace Ksiegarnia
             Cena = cena;
         }
 
+        public Ksiazka() { }
+
 
     }
 
@@ -161,6 +163,8 @@ namespace Ksiegarnia
         public string Email { get; set; }
 
         public bool Uprawnienia_admina { get; set; }
+
+        public Uzytkownik() { }
 
         public Uzytkownik (string login, string haslo, int id, string imie, string nazwisko, string adres, int numer_telefonu, string email, bool uprawnienia_admina)
         {
@@ -193,12 +197,21 @@ namespace Ksiegarnia
 
     public class BazaDanych
     {
-        static public Uzytkownik[] BazaUzytkownikow { get; set; }
-        static int counter=0;
+        static public Uzytkownik[] BazaUzytkownikow = new Uzytkownik[100]; 
+        public static int counter=0;
         static public void Dodaj_uzytkownika (Uzytkownik nowyUzytkownik)
         {
             BazaUzytkownikow[counter] = nowyUzytkownik;
             counter++;
+        }
+
+        static public Ksiazka[] BazaKsiazek = new Ksiazka[100];
+        public static int ksiazka_counter = 1;
+
+        static public void Dodaj_ksiazke (Ksiazka nowaKsiazka)
+        {
+            BazaKsiazek[ksiazka_counter] = nowaKsiazka;
+            ksiazka_counter++;
         }
     }
     

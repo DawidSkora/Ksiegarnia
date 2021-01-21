@@ -125,9 +125,7 @@ namespace Ksiegarnia
                 labelCenaPom.Text = "Cena";
                 this.Controls.Add(labelCenaPom);
                 labelCenaPom.Visible = true;
-
-
-                
+ 
                  counter += 191;
                  counter_2 += 191;
                  counter_3 += 191;
@@ -136,6 +134,8 @@ namespace Ksiegarnia
                  counter_6 += 191;
                  counter_7 += 191;
                  counter_8 += 191;
+
+                BazaDanych.Dodaj_ksiazke(pomocnicza);
             }
         }
     }
